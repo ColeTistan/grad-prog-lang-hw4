@@ -81,7 +81,7 @@ end
 # otherwise, return true if all flowers are the same color or the garden is empty
 # method written by Hui Zhang
 def has_same_color(garden)
-    # check if it is empty garden
+    # check if garden has no flowers
     return true if garden.empty? 
     garden.each{ |flower| if flower.color != garden[0].color
         return false
@@ -101,7 +101,11 @@ def has_purple_yellow_white(garden)
     return true   
 end
 
+# main method to run program
+# written by Hui Zhang and Cole Tistan
 def main()
+
+    # Start - populates garden list with flower instances
     garden = []
     print "Enter the number of flowers: "
     num_of_flowers = gets.to_i()
@@ -111,13 +115,12 @@ def main()
         new_flower = Flower.new(flower_type, flower_color, flower_height.to_i)
         garden << new_flower
     end
+    # End - populates garden list with flower instances
 
     has_tulips = has_tulips(garden)
     has_yellow_flowers = has_yellow_flowers(garden)
     has_similar_height = has_similar_height(garden)
     short_flowers = short_flowers(garden)
-
-    # Should change long_flowers method and variable name to tall_flowers for consistency
     tall_flowers = tall_flowers(garden)
     has_same_color = has_same_color(garden)
     has_purple_yellow_white = has_purple_yellow_white(garden)
