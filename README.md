@@ -1,5 +1,5 @@
 # grad-prog-lang-hw4
-The assignment was to write a program that will analyze a flower garden to determine which of several categories it falls into, based on the heights, colors, and types of flowers in the garden.
+This semester long assignment was to write a program that will analyze a flower garden to determine which of several categories it falls into, based on the heights, colors, and types of flowers in the garden.
 
 Each flower in the garden has a type (for example, "rose"), a color (for example, "red"), and a height in inches (for example, 45). The flowers in the garden are planted in one straight line. The garden is guaranteed to be nonempty: there will be at least one flower in the garden.
 
