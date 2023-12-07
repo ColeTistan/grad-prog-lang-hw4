@@ -27,7 +27,7 @@ Output format: The program should print as many of the following lines as are tr
 	7. All purple, yellow, or white
 Examples:
 
-Input:
+```Input:
 2
 tulip yellow 5
 crocus yellow 4
