@@ -106,6 +106,7 @@ zinnia red 20
 
 Output:
 6. All same color (red)
+```
 
 The following programming languages were used to solve this problem:
 - Haskell
@@ -114,7 +115,7 @@ The following programming languages were used to solve this problem:
 - Python
 
 Below are sample commands to run each garden or other program in their respective language:
-- Haskell: run `ghci <haskell_file_name>` and then in ghci <main> or <garden_categories>
-- Go: go build <go_file_name> and then go run <go_file_name>
-- Ruby: ruby <ruby_file_name>
-- Python: python3 <python_file_name>
+- Haskell: run `ghci <haskell_file_name>` and then in `ghci <main>` or `ghci <garden_categories>`
+- Go: `go build <go_file_name>` and then `go run <go_file_name>`
+- Ruby: `ruby <ruby_file_name>`
+- Python: `python3 <python_file_name>`
