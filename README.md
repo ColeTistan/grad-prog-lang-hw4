@@ -1,4 +1,4 @@
-# grad-prog-lang-hw4
+# Graduate Level Programming Languages - Fall 2023
 This semester long assignment was to write a program that will analyze a flower garden to determine which of several categories it falls into, based on the heights, colors, and types of flowers in the garden.
 
 Each flower in the garden has a type (for example, "rose"), a color (for example, "red"), and a height in inches (for example, 45). The flowers in the garden are planted in one straight line. The garden is guaranteed to be nonempty: there will be at least one flower in the garden.
@@ -106,3 +106,15 @@ zinnia red 20
 
 Output:
 6. All same color (red)
+
+The following programming languages were used to solve this problem:
+- Haskell
+- Go
+- Ruby
+- Python
+
+Below are sample commands to run each garden or other program in their respective language:
+- Haskell: run `ghci <haskell_file_name>` and then in ghci <main> or <garden_categories>
+- Go: go build <go_file_name> and then go run <go_file_name>
+- Ruby: ruby <ruby_file_name>
+- Python: python3 <python_file_name>
